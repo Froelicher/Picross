@@ -1,0 +1,9 @@
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\bin\Debug\PicrossManager.exe.config
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\bin\Debug\PicrossManager.exe
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\bin\Debug\PicrossManager.pdb
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\obj\Debug\PicrossManager.csprojResolveAssemblyReference.cache
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\obj\Debug\PicrossManager.MainView.resources
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\obj\Debug\PicrossManager.Properties.Resources.resources
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\obj\Debug\PicrossManager.csproj.GenerateResource.Cache
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\obj\Debug\PicrossManager.exe
+C:\Users\admintech\Documents\GitHub\Picross\PicrossManager\PicrossManager\obj\Debug\PicrossManager.pdb
