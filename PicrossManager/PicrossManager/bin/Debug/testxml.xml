@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PicrossPuzzle>
+  <Informations>
+    <Name>Nom du puzzle</Name>
+    <CreatedDate date="09.03.2015 12:43:41">09.03.2015 12:43:41</CreatedDate>
+    <CreatedBy version="1.0.0.0" name="picross_manager" />
+    <NbLines dim="20" />
+    <NbRows dim="20" />
+  </Informations>
+  <Puzzle>
+    <Lines>
+      <Line index="0">
+        <flush>00000011111111000000</flush>
+        <indices_string>8</indices_string>
+        <indices_string_separator>8</indices_string_separator>
+        <indice position="0">8</indice>
+      </Line>
+      <Line index="1">
+        <flush>00001110000001110000</flush>
+        <indices_string>3 3</indices_string>
+        <indices_string_separator>3, 3</indices_string_separator>
+        <indice position="0">3</indice>
+        <indice position="1">3</indice>
+      </Line>
+      <Line index="2">
+        <flush>00011000000000011000</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Line>
+      <Line index="3">
+        <flush>00110000000000001100</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Line>
+      <Line index="4">
+        <flush>01100000000000000110</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Line>
+      <Line index="5">
+        <flush>01000000000000000010</flush>
+        <indices_string>1 1</indices_string>
+        <indices_string_separator>1, 1</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">1</indice>
+      </Line>
+      <Line index="6">
+        <flush>11000000000000000011</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Line>
+      <Line index="7">
+        <flush>10000000000000000001</flush>
+        <indices_string>1 1</indices_string>
+        <indices_string_separator>1, 1</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">1</indice>
+      </Line>
+      <Line index="8">
+        <flush>10000000000000000001</flush>
+        <indices_string>1 1</indices_string>
+        <indices_string_separator>1, 1</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">1</indice>
+      </Line>
+      <Line index="9">
+        <flush>10000000000000000001</flush>
+        <indices_string>1 1</indices_string>
+        <indices_string_separator>1, 1</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">1</indice>
+      </Line>
+      <Line index="10">
+        <flush>10001100000000000001</flush>
+        <indices_string>1 2 1</indices_string>
+        <indices_string_separator>1, 2, 1</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">2</indice>
+        <indice position="2">1</indice>
+      </Line>
+      <Line index="11">
+        <flush>10001100011000000001</flush>
+        <indices_string>1 2 2 1</indices_string>
+        <indices_string_separator>1, 2, 2, 1</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">2</indice>
+        <indice position="2">2</indice>
+        <indice position="3">1</indice>
+      </Line>
+      <Line index="12">
+        <flush>10000000111000000001</flush>
+        <indices_string>1 3 1</indices_string>
+        <indices_string_separator>1, 3, 1</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">3</indice>
+        <indice position="2">1</indice>
+      </Line>
+      <Line index="13">
+        <flush>11000000101100000011</flush>
+        <indices_string>2 1 2 2</indices_string>
+        <indices_string_separator>2, 1, 2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">1</indice>
+        <indice position="2">2</indice>
+        <indice position="3">2</indice>
+      </Line>
+      <Line index="14">
+        <flush>11000001100100000010</flush>
+        <indices_string>2 2 1 1</indices_string>
+        <indices_string_separator>2, 2, 1, 1</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+        <indice position="2">1</indice>
+        <indice position="3">1</indice>
+      </Line>
+      <Line index="15">
+        <flush>01100001000010000110</flush>
+        <indices_string>2 1 1 2</indices_string>
+        <indices_string_separator>2, 1, 1, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">1</indice>
+        <indice position="2">1</indice>
+        <indice position="3">2</indice>
+      </Line>
+      <Line index="16">
+        <flush>00110011000011001100</flush>
+        <indices_string>2 2 2 2</indices_string>
+        <indices_string_separator>2, 2, 2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+        <indice position="2">2</indice>
+        <indice position="3">2</indice>
+      </Line>
+      <Line index="17">
+        <flush>00011110000001011000</flush>
+        <indices_string>4 1 2</indices_string>
+        <indices_string_separator>4, 1, 2</indices_string_separator>
+        <indice position="0">4</indice>
+        <indice position="1">1</indice>
+        <indice position="2">2</indice>
+      </Line>
+      <Line index="18">
+        <flush>00001100000001110000</flush>
+        <indices_string>2 3</indices_string>
+        <indices_string_separator>2, 3</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">3</indice>
+      </Line>
+      <Line index="19">
+        <flush>00000000000000000000</flush>
+        <indices_string />
+        <indices_string_separator />
+      </Line>
+    </Lines>
+    <Rows>
+      <Row index="0">
+        <flush>00000011111111100000</flush>
+        <indices_string>9</indices_string>
+        <indices_string_separator>9</indices_string_separator>
+        <indice position="0">9</indice>
+      </Row>
+      <Row index="1">
+        <flush>00001110000001110000</flush>
+        <indices_string>3 3</indices_string>
+        <indices_string_separator>3, 3</indices_string_separator>
+        <indice position="0">3</indice>
+        <indice position="1">3</indice>
+      </Row>
+      <Row index="2">
+        <flush>00011000000000011000</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="3">
+        <flush>00110000000000001100</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="4">
+        <flush>01100000001100000110</flush>
+        <indices_string>2 2 2</indices_string>
+        <indices_string_separator>2, 2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+        <indice position="2">2</indice>
+      </Row>
+      <Row index="5">
+        <flush>01000000001100000110</flush>
+        <indices_string>1 2 2</indices_string>
+        <indices_string_separator>1, 2, 2</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">2</indice>
+        <indice position="2">2</indice>
+      </Row>
+      <Row index="6">
+        <flush>11000000000000001100</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="7">
+        <flush>10000000000000111000</flush>
+        <indices_string>1 3</indices_string>
+        <indices_string_separator>1, 3</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">3</indice>
+      </Row>
+      <Row index="8">
+        <flush>10000000000011100000</flush>
+        <indices_string>1 3</indices_string>
+        <indices_string_separator>1, 3</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">3</indice>
+      </Row>
+      <Row index="9">
+        <flush>10000000000110000000</flush>
+        <indices_string>1 2</indices_string>
+        <indices_string_separator>1, 2</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="10">
+        <flush>10000000000111000000</flush>
+        <indices_string>1 3</indices_string>
+        <indices_string_separator>1, 3</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">3</indice>
+      </Row>
+      <Row index="11">
+        <flush>10000000000001100000</flush>
+        <indices_string>1 2</indices_string>
+        <indices_string_separator>1, 2</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="12">
+        <flush>10000000000000011000</flush>
+        <indices_string>1 2</indices_string>
+        <indices_string_separator>1, 2</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="13">
+        <flush>11000000000000001110</flush>
+        <indices_string>2 3</indices_string>
+        <indices_string_separator>2, 3</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">3</indice>
+      </Row>
+      <Row index="14">
+        <flush>01000000000000000010</flush>
+        <indices_string>1 1</indices_string>
+        <indices_string_separator>1, 1</indices_string_separator>
+        <indice position="0">1</indice>
+        <indice position="1">1</indice>
+      </Row>
+      <Row index="15">
+        <flush>01100000000000000110</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="16">
+        <flush>00110000000000001100</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="17">
+        <flush>00011000000000011000</flush>
+        <indices_string>2 2</indices_string>
+        <indices_string_separator>2, 2</indices_string_separator>
+        <indice position="0">2</indice>
+        <indice position="1">2</indice>
+      </Row>
+      <Row index="18">
+        <flush>00001110000001110000</flush>
+        <indices_string>3 3</indices_string>
+        <indices_string_separator>3, 3</indices_string_separator>
+        <indice position="0">3</indice>
+        <indice position="1">3</indice>
+      </Row>
+      <Row index="19">
+        <flush>00000011111111000000</flush>
+        <indices_string>8</indices_string>
+        <indices_string_separator>8</indices_string_separator>
+        <indice position="0">8</indice>
+      </Row>
+    </Rows>
+  </Puzzle>
+</PicrossPuzzle>

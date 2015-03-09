@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.nupSeuille = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pbxPixel = new PicrossManager.MyPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxOriginalImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGrayImage)).BeginInit();
@@ -151,6 +152,11 @@
             this.nupSeuille.Name = "nupSeuille";
             this.nupSeuille.Size = new System.Drawing.Size(56, 20);
             this.nupSeuille.TabIndex = 11;
+            this.nupSeuille.Value = new decimal(new int[] {
+            80,
+            0,
+            0,
+            0});
             // 
             // label3
             // 
@@ -160,6 +166,16 @@
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 12;
             this.label3.Text = "Seuille :";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(858, 360);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pbxPixel
             // 
@@ -175,6 +191,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(931, 379);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.nupSeuille);
             this.Controls.Add(this.label2);
@@ -215,6 +232,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown nupSeuille;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
 

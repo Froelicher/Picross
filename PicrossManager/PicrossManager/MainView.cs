@@ -13,6 +13,13 @@ namespace PicrossManager
     public partial class MainView : Form
     {
         private GeneratorImage _generatorGray;
+        private GeneratorXml _generatorFileXml;
+
+        internal GeneratorXml GeneratorFileXml
+        {
+            get { return _generatorFileXml; }
+            set { _generatorFileXml = value; }
+        }
 
         internal GeneratorImage GeneratorGray
         {
@@ -54,6 +61,12 @@ namespace PicrossManager
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.GeneratorFileXml = new GeneratorXml("testxml.xml");
+            this.GeneratorFileXml.Generate(this.GeneratorGray.PicrossImage);
         }
     }
 }
