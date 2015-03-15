@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+/*
+ * Author : JP. Froelicher
+ * Date : 15.03.2015
+ * Description : View to convert image to picross image
+ */ 
 using System.Windows.Forms;
 
 namespace PicrossManager
@@ -56,6 +54,9 @@ namespace PicrossManager
             {
                 pbxPixel.Image = this.GeneratorGray.MakePicross(this.GeneratorGray.GrayImage, (int)nupSeuille.Value, (int)nupWidth.Value, (int)nupHeight.Value);
             }
+
+            this.GeneratorFileXml = new GeneratorXml("testxml.xml");
+            this.GeneratorFileXml.Generate(this.GeneratorGray.PicrossImage);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -65,8 +66,13 @@ namespace PicrossManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.GeneratorFileXml = new GeneratorXml("testxml.xml");
-            this.GeneratorFileXml.Generate(this.GeneratorGray.PicrossImage);
+            
+        }
+
+        private void btnOpenGame_Click(object sender, EventArgs e)
+        {
+            GameView gameView = new GameView();
+            gameView.Show();
         }
     }
 }

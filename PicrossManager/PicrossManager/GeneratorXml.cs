@@ -1,9 +1,12 @@
-﻿using System;
+﻿/*
+ * Author : JP. Froelicher
+ * Date : 15.03.2015
+ * Description : Generate xml file
+ */ 
+using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace PicrossManager
@@ -18,11 +21,19 @@ namespace PicrossManager
             set { writer = value; }
         }
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="nameXml">name file</param>
         public GeneratorXml(string nameXml)
         {
             this.Writer = new XmlTextWriter(nameXml, System.Text.Encoding.UTF8);
         }
 
+        /// <summary>
+        /// Generate the xml file
+        /// </summary>
+        /// <param name="img"></param>
         public void Generate(Bitmap img)
         {
             List<string> listSbRows = this.GenerateStringPixelRows(img);
@@ -107,6 +118,11 @@ namespace PicrossManager
             this.Writer.Close();
         }
 
+        /// <summary>
+        /// Generate string pixel rows
+        /// </summary>
+        /// <param name="img"></param>
+        /// <returns>list of pixel string</returns>
         public List<string> GenerateStringPixelRows(Bitmap img)
         {
             int width = img.Width;
@@ -133,6 +149,11 @@ namespace PicrossManager
             return listSb;
         }
 
+        /// <summary>
+        /// Generate string pixel rows
+        /// </summary>
+        /// <param name="img"></param>
+        /// <returns>list of pixel rows</returns>
         public List<string> GenerateStringPixelLines(Bitmap img)
         {
             int width = img.Width;
@@ -159,6 +180,11 @@ namespace PicrossManager
             return listSb;
         }
 
+        /// <summary>
+        /// Generate indice string
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns>indice</returns>
         public string GenerateIndiceString(string str)
         {
             bool suite = false;
@@ -206,6 +232,11 @@ namespace PicrossManager
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Generate indice string separator
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns>indice separator</returns>
         public string GenerateIndiceStringSep(string str)
         {
             bool suite = false;
@@ -253,6 +284,10 @@ namespace PicrossManager
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Generate indice position
+        /// </summary>
+        /// <param name="str"></param>
         public void GenerateIndicePos(string str)
         {
             int compteur = 0;

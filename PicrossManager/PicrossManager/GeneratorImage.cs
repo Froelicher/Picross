@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿/*
+ * Author : JP. Froelicher
+ * Date : 15.03.2015
+ * Description : Generate image Picross 
+ */ 
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PicrossManager
 {
@@ -37,11 +37,20 @@ namespace PicrossManager
 
         }
 
+        /// <summary>
+        /// Load image
+        /// </summary>
+        /// <param name="fileName">file name</param>
         public void LoadImage(string fileName)
         {
             SourceImage = new Bitmap(fileName);
         }
 
+        /// <summary>
+        /// Convert to gray image
+        /// </summary>
+        /// <param name="originalImg"></param>
+        /// <returns></returns>
         public Bitmap MakeGrayScale(Bitmap originalImg)
         {
             Bitmap newImg = new Bitmap(originalImg.Width, originalImg.Height);
@@ -72,6 +81,14 @@ namespace PicrossManager
             return newImg;
         }
 
+        /// <summary>
+        /// Convert to picross image
+        /// </summary>
+        /// <param name="grayImg">gray image</param>
+        /// <param name="seuille">seuille</param>
+        /// <param name="p_width">width</param>
+        /// <param name="p_height">height</param>
+        /// <returns>image picross</returns>
         public Bitmap MakePicross(Bitmap grayImg, int seuille, int p_width, int p_height)
         {
 

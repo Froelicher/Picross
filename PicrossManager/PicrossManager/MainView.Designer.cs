@@ -40,7 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.nupSeuille = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOpenGame = new System.Windows.Forms.Button();
             this.pbxPixel = new PicrossManager.MyPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxOriginalImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGrayImage)).BeginInit();
@@ -105,7 +105,7 @@
             this.nupWidth.Size = new System.Drawing.Size(52, 20);
             this.nupWidth.TabIndex = 7;
             this.nupWidth.Value = new decimal(new int[] {
-            20,
+            50,
             0,
             0,
             0});
@@ -117,7 +117,7 @@
             this.nupHeight.Size = new System.Drawing.Size(52, 20);
             this.nupHeight.TabIndex = 8;
             this.nupHeight.Value = new decimal(new int[] {
-            20,
+            50,
             0,
             0,
             0});
@@ -143,7 +143,7 @@
             // 
             // nupSeuille
             // 
-            this.nupSeuille.Location = new System.Drawing.Point(798, 334);
+            this.nupSeuille.Location = new System.Drawing.Point(786, 334);
             this.nupSeuille.Maximum = new decimal(new int[] {
             255,
             0,
@@ -153,7 +153,7 @@
             this.nupSeuille.Size = new System.Drawing.Size(56, 20);
             this.nupSeuille.TabIndex = 11;
             this.nupSeuille.Value = new decimal(new int[] {
-            80,
+            150,
             0,
             0,
             0});
@@ -161,21 +161,21 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(750, 337);
+            this.label3.Location = new System.Drawing.Point(738, 337);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 12;
             this.label3.Text = "Seuille :";
             // 
-            // button1
+            // btnOpenGame
             // 
-            this.button1.Location = new System.Drawing.Point(858, 360);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnOpenGame.Location = new System.Drawing.Point(849, 314);
+            this.btnOpenGame.Name = "btnOpenGame";
+            this.btnOpenGame.Size = new System.Drawing.Size(75, 58);
+            this.btnOpenGame.TabIndex = 13;
+            this.btnOpenGame.Text = "Play";
+            this.btnOpenGame.UseVisualStyleBackColor = true;
+            this.btnOpenGame.Click += new System.EventHandler(this.btnOpenGame_Click);
             // 
             // pbxPixel
             // 
@@ -191,7 +191,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(931, 379);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnOpenGame);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.nupSeuille);
             this.Controls.Add(this.label2);
@@ -232,7 +232,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown nupSeuille;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOpenGame;
     }
 }
 
